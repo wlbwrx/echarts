@@ -1,0 +1,159 @@
+body,html{
+	width: 100%;
+	height:100%;
+	margin:0;
+	padding:0;
+}
+*{
+	margin:0;
+	padding:0;
+}
+ol,ul,li{
+	list-style:none;
+}
+.background_img{
+	width: 100%;
+	height:100%;
+	background:url(../images/yuncai_Jc.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.main_left{
+	float: left;
+	width:27.083%;
+	height:100%;
+}
+.main_center{
+	float: left;
+	width:45.83%;
+	height:100%;
+}
+.main_right{
+	float: left;
+	width:27.083%;
+	height:100%;
+}
+.main_left_one{
+	float: left;
+	width:100%;
+	height:27.78%;
+}
+.main_left_two{
+	float: left;
+	width: 100%;
+	height:32.87%;
+}
+.main_left_three{
+	float: left;
+	width: 100%;
+	height:39.35%;
+}
+.main_right_one{
+	float: left;
+	width:100%;
+	height:27.78%;
+}
+.main_right_two{
+	float: left;
+	width: 100%;
+	height:32.87%;
+}
+.main_right_three{
+	float: left;
+	width: 100%;
+	height:39.35%;
+}
+.main_center_one{
+	float: left;
+	width: 100%;
+	height: 18.52%;
+}
+.main_center_two_all{
+	float: left;
+	width: 100%;
+	height:69.9%;
+	position: relative;
+}
+.main_center_two{
+	float: left;
+	width: 100%;
+	height:100%;
+	position: absolute;
+	top:0;
+	left:0;
+}
+.main_center_two1{
+	float: left;
+	width: 100%;
+	height:100%;
+	position: absolute;
+	top:0;
+	left:0;
+}
+.main_center_two1_top{
+	float: left;
+	width: 100%;
+	height:50%;
+}
+.main_center_two2_top{
+	float: left;
+	width: 100%;
+	height:50%;
+}
+.main_center_three{
+	float: left;
+	width: 100%;
+	height:11.58%;
+}
+.buttonMap{
+	position: absolute;
+	width: 100px;
+	height:30px;
+	line-height: 30px;
+	text-align: center;
+	border:1px solid skyblue;
+	cursor:pointer;
+	z-index:50;
+	background-color:transparent;
+	font-family: '微软雅黑';
+	color:#fff;
+	border-radius:5px;
+	outline: none;
+	font-size:13px;
+	display:none;
+}
+.buttonMap:hover{
+	background-color:skyblue;
+	color:#333;
+}
+.nameIndex{
+	color:#fff;
+	font-size:20px;
+	font-weight:bolder;
+	float: left;
+	margin-top:20px;
+}
+.lbizhi{
+	float: left;
+	width: 100%;
+	margin-top:20px;
+}
+.lbizhi li{
+	float: left;
+	padding:10px 15px;
+	font-size:12px;
+	border:1px solid skyblue;
+	background:transparent;
+	color:#fff;
+	border-radius:5px;
+	cursor:pointer;
+	margin-right:10px;
+}
+.lbizhi li.current{
+	background-color:skyblue;
+	color:#333;
+}
+.lbizhi li:hover{
+	background-color:skyblue;
+	color:#333;
+}
